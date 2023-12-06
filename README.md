@@ -24,8 +24,16 @@ npm i -g @nestjs/cli
 
 4. Levantar la base de datos
 
+Abrir previamente docker desktop (en windows) y luego ejecutar en la raiz del proyecto:
+
 ```
 docker-compose up -d
+```
+
+5. Reconstruir la BD con la semilla:
+
+```
+http://localhost:3000/api/v2/seed
 ```
 
 ## Stack usado
