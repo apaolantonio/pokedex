@@ -30,7 +30,15 @@ Abrir previamente docker desktop (en windows) y luego ejecutar en la raiz del pr
 docker-compose up -d
 ```
 
-5. Reconstruir la BD con la semilla:
+5. Clonar el archivo **.env.template** y renombrar a **.env** con las variables correspondientes
+
+6. Ejecutar la app en Dev:
+
+```
+yarn start:dev
+```
+
+7. Reconstruir la BD con la semilla:
 
 ```
 http://localhost:3000/api/v2/seed
